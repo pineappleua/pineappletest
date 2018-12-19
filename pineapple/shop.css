@@ -1,0 +1,116 @@
+body{
+    padding-top:40px;
+
+}
+h1,h2,h3,h4{
+    font-family: 'Fjalla One', sans-serif;
+}
+h1{
+    color: rgba(0, 0, 0, 0.72);
+
+}
+/*Navigation Style*/
+.NavBar .brand{
+    font-family: "Merienda",cursive;
+    font-size: 28px;
+
+}
+
+
+
+
+.divider{
+    background-image: url("divider-pattern.png");
+    background-repeat: repeat-x;
+    height:100px;
+    width: 100%;
+}
+
+.carousel .item .inner{
+    text-align: center;
+    height: 300px;
+    top: -50px;
+
+}
+.carousel h2{
+    color: #fff;
+    margin: 0;
+    padding-top:60px;
+    font-size: 48px;
+}
+.carousel p{
+    color: rgba(135, 135, 135, 0.63);
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+
+
+
+/*PAGE Style*/
+#heading,#screenshots,#futures,#download{
+    text-align: center;
+    padding: 40px 0;
+
+}
+#about div.row{
+    padding: 50px 0;
+
+}
+#screenshots h1{
+    padding-bottom: 30px;
+}
+
+
+
+
+
+/*Footer style*/
+
+footer{
+    background-color: #1b1b1b;
+    color: #666666;
+}
+footer .span12{
+    text-align: center;
+}
+#social li a{
+    background-image:url("icons") ;
+    background-repeat:no-repeat;
+    display: block;
+    height: 32px;
+    width: 32px;
+
+}
+#social li a.facebook-icon{
+    background-position: 0px 0px;
+}
+#social li a:hover.facebook-icon{
+    background-position: 0px -32px;/*при наведение изменяется позиция*/
+}
+#social li a.google-plus-icon{
+    background-position: -32px 0px;
+}
+#social li a:hover.google-plus-icon{
+    background-position: -32px -32px;/*при наведение изменяется позиция*/
+}
+.img-polaroid{
+    border-radius: 20px;
+}
+.sq{
+    background: none;
+    border-radius: 20px;
+
+}
+.sq:hover{
+transform:scale(1.5);
+
+    transition: ease-out 1s;
+}
+
+.ww{
+    background-color: rgba(163, 163, 163, 0.35);
+
+}
